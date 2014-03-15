@@ -1,0 +1,17 @@
+application: erpreciso-reg-challenge
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /style
+  static_dir: style
+- url: /.*
+  script: erpreciso-reg-challenge.app
+
+  
+libraries:
+- name: jinja2
+  version: latest
+

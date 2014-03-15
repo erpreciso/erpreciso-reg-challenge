@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<link type="text/css" rel="stylesheet" href="/style/main.css" />
+    <title class = "main-title">erpreciso-blog-all</title>
+  </head>
+
+  <body>
+    <h1>erpreciso Blog</h1>
+    <h2>Queried {{hit_time}} seconds ago</h2>
+    <a href = "/blog/newpost">click here for a new post</a>
+ 
+  <hr>
+  
+  {% for single_entry in all_entries %}
+    <div><a href = "/blog/{{single_entry.key().id()}}">{{single_entry.subject}}</a></div>
+    <pre>{{single_entry.content}}</pre>
+  {% endfor %}
+  
+  </body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<link type="text/css" rel="stylesheet" href="/style/main.css" />
+    <title class = "main-title">erpreciso-blog-newpost</title>
+  </head>
+
+  <body>
+    <h1>new post</h1>
+	<a href = "/blog">click here for the main page</a>
+	<form method = "post">
+	<table>
+	  <tr>
+	    <th class = "new_post_th">Subject</th>
+	    <td><input type = "text" name = "subject" value = "{{subject}}"></td>  
+	  </tr>
+	  <tr>
+	    <th class = "new_post_th">Blog</th>
+	    <td><textarea name = "content">{{content}}</textarea>
+	    </td>
+	  </tr>
+	  <tr>
+		<td></td>
+	    <td><input type ="submit"></td>
+	  </tr>
+	</table>
+	  <hr>
+	  <div class = error>{{message}}</div>
+	</form>
+    <hr>
+  </body>
+
+</html>

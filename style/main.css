@@ -1,0 +1,45 @@
+/* erpreciso-reg-challenge styles */
+
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+}
+
+.label {
+		text-align:right;
+		color:blue;
+		font-family:calibri,arial,sans-serif;
+}
+
+.error {
+		color:red;
+		font-family:calibri,arial,sans-serif;
+		font-size:20px;
+}
+
+h1 {
+	text-align:center;
+	font-family:calibri,arial,sans-serif;
+	font-size:25px;
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.post + .post {
+    margin-top: 15px;
+}
+
+.post-heading {
+    position: relative;
+    border-bottom: 3px solid #666;
+}
